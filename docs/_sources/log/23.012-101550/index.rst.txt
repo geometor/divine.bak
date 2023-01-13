@@ -12,7 +12,7 @@ The Golden Ratio, Mean, Section
 Euclid Extreme and Mean Ratio
 
 
-The Golden Ratio is a proportion of two unequal values :math:`a` and :math: :math:`b` where
+The Golden Ratio is a proportion of two unequal values :math:`a` and :math:`b` where
 
 .. math::
    \large
