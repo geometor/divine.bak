@@ -1,5 +1,5 @@
-GEOMETOR • template
-===================
+GEOMETOR • divine
+=================
 
 
 .. include:: README.rst

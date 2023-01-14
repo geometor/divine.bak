@@ -69,26 +69,45 @@
           <div class="body" role="main">
              <section id="defining-the-divine-proportion">
 <h1>Defining the Divine Proportion<a class="headerlink" href="#defining-the-divine-proportion" title="Permalink to this heading">¶</a></h1>
-<p>It is known by many names.
-The Divine Proportion
-The Golden Ratio, Mean, Section
-Euclid Extreme and Mean Ratio</p>
-<p>The Golden Ratio is a proportion of two unequal values <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> where</p>
+<p>It is known by many names.</p>
+<ul class="simple">
+<li><p>Divine Proportion</p></li>
+<li><p>Golden Ratio, Mean, Section</p></li>
+<li><p>Extreme and Mean Ratio</p></li>
+</ul>
+<p>Many references will begin telling you it is a number equal to</p>
+<div class="math notranslate nohighlight">
+\[1.618...\]</div>
+<p>But this is incomplete and meaningless.</p>
+<p>To understand the true meaning of the Divine Proportion, we first must understand the principle of a geometric mean. A geometric mean is a relationship of three values <span class="math notranslate nohighlight">\(a, b, c\)</span> where</p>
+<div class="math notranslate nohighlight">
+\[\large
+\frac{a}{b} = \frac{b}{c}\]</div>
+<p>so a simple example would be</p>
+<div class="math notranslate nohighlight">
+\[\large
+\frac{1}{2} = \frac{2}{4}\]</div>
+<p>But what if we were to define <span class="math notranslate nohighlight">\(c = a + b\)</span> so our geometric mean is expressed with only two values</p>
 <div class="math notranslate nohighlight">
 \[\large
 \frac{a}{b} = \frac{b}{a+b}\]</div>
-<p>—</p>
+<p>We can begin to find a solution for this by multiplying <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> by a common value <span class="math notranslate nohighlight">\(\lambda\)</span></p>
 <div class="math notranslate nohighlight">
-\[\large
-\frac{a}{b} = \frac{1}{\color{#C90}{\phi}}\]</div>
-<p>—</p>
+\[\begin{split}\large
+a * \lambda &amp;= 1\\
+\large
+b * \lambda &amp;= \phi\end{split}\]</div>
+<p>This allows us to translate our geometric mean to an expression with one variable, <span class="math notranslate nohighlight">\(\color{#C90}{\phi}\)</span></p>
 <div class="math notranslate nohighlight">
 \[\large
 \frac{1}{\color{#C90}{\phi}} = \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}}\]</div>
-<p>—</p>
+<p>if we do a little algebraic manipulation, we see that our mean can be expressed as a quadratic expression.</p>
 <div class="math notranslate nohighlight">
-\[\large
-\color{#C90}{\phi}^2 - \color{#C90}{\phi} - 1 = 0\]</div>
+\[\begin{split}\color{#C90}{\phi} * \frac{1}{\color{#C90}{\phi}} &amp;= \color{#C90}{\phi} * \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}} \\
+1 &amp;=  \frac{\color{#C90}{\phi}^2}{1 + \color{#C90}{\phi}} \\
+( 1 + \color{#C90}{\phi} ) * 1 &amp;=  ( 1 + \color{#C90}{\phi} ) * \frac{\color{#C90}{\phi} ^ 2}{1 + \color{#C90}{\phi}} \\
+1 + \color{#C90}{\phi}  &amp;=   \color{#C90}{\phi} ^ 2 \\
+0 &amp;= \color{#C90}{\phi}^2 - \color{#C90}{\phi} - 1\end{split}\]</div>
 <p>—</p>
 <div class="math notranslate nohighlight">
 \[\large

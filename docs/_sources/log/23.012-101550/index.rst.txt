@@ -1,40 +1,62 @@
 Defining the Divine Proportion
 ==============================
 
-
 .. post::  23.012-101550
    :tags: divine
    :category: DEF
 
 It is known by many names.
-The Divine Proportion
-The Golden Ratio, Mean, Section
-Euclid Extreme and Mean Ratio
 
+- Divine Proportion
+- Golden Ratio, Mean, Section
+- Extreme and Mean Ratio
 
-The Golden Ratio is a proportion of two unequal values :math:`a` and :math:`b` where
+Many references will begin telling you it is a number equal to 
+
+.. math:: 1.618...
+
+But this is incomplete and meaningless.
+
+To understand the true meaning of the Divine Proportion, we first must understand the principle of a geometric mean. A geometric mean is a relationship of three values :math:`a, b, c` where
+
+.. math::
+   \large
+   \frac{a}{b} = \frac{b}{c}
+
+so a simple example would be
+
+.. math::
+   \large
+   \frac{1}{2} = \frac{2}{4}
+
+But what if we were to define :math:`c = a + b` so our geometric mean is expressed with only two values
 
 .. math::
    \large
    \frac{a}{b} = \frac{b}{a+b}
 
----
+We can begin to find a solution for this by multiplying :math:`a` and :math:`b` by a common value :math:`\lambda`
 
 .. math::
    \large
-   \frac{a}{b} = \frac{1}{\color{#C90}{\phi}}
+   a * \lambda &= 1\\
+   \large
+   b * \lambda &= \phi
 
----
+This allows us to translate our geometric mean to an expression with one variable, :math:`\color{#C90}{\phi}`
 
 .. math::
    \large
    \frac{1}{\color{#C90}{\phi}} = \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}}
 
----
+if we do a little algebraic manipulation, we see that our mean can be expressed as a quadratic expression.
 
 .. math::
-   \large
-   \color{#C90}{\phi}^2 - \color{#C90}{\phi} - 1 = 0 
+   \color{#C90}{\phi} * \frac{1}{\color{#C90}{\phi}} &= \color{#C90}{\phi} * \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}} \\
+   1 &=  \frac{\color{#C90}{\phi}^2}{1 + \color{#C90}{\phi}} \\
+   ( 1 + \color{#C90}{\phi} ) * 1 &=  ( 1 + \color{#C90}{\phi} ) * \frac{\color{#C90}{\phi} ^ 2}{1 + \color{#C90}{\phi}} \\
+   1 + \color{#C90}{\phi}  &=   \color{#C90}{\phi} ^ 2 \\
+   0 &= \color{#C90}{\phi}^2 - \color{#C90}{\phi} - 1  
 
 ---
 
