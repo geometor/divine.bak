@@ -78,8 +78,10 @@
 <p>Many references will begin telling you it is a number equal to</p>
 <div class="math notranslate nohighlight">
 \[1.618...\]</div>
-<p>But this is incomplete and meaningless.</p>
-<p>To understand the true meaning of the Divine Proportion, we first must understand the principle of a geometric mean. A geometric mean is a relationship of three values <span class="math notranslate nohighlight">\(a, b, c\)</span> where</p>
+<p>But this number is incomplete and meaningless.</p>
+<p>To understand the true meaning of the Divine Proportion, we first must
+understand the principle of a geometric mean. A geometric mean is a
+relationship of three values <span class="math notranslate nohighlight">\(a, b, c\)</span> where</p>
 <div class="math notranslate nohighlight">
 \[\large
 \frac{a}{b} = \frac{b}{c}\]</div>
@@ -87,41 +89,87 @@
 <div class="math notranslate nohighlight">
 \[\large
 \frac{1}{2} = \frac{2}{4}\]</div>
-<p>But what if we were to define <span class="math notranslate nohighlight">\(c = a + b\)</span> so our geometric mean is expressed with only two values</p>
+<p>But what if we were to define <span class="math notranslate nohighlight">\(c = a + b\)</span> so our geometric mean is
+expressed with only two values</p>
 <div class="math notranslate nohighlight">
 \[\large
 \frac{a}{b} = \frac{b}{a+b}\]</div>
-<p>We can begin to find a solution for this by multiplying <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> by a common value <span class="math notranslate nohighlight">\(\lambda\)</span></p>
+<p>We can begin to find a solution for this by multiplying <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span>
+by a common value <span class="math notranslate nohighlight">\(\lambda\)</span></p>
 <div class="math notranslate nohighlight">
 \[\begin{split}\large
 a * \lambda &amp;= 1\\
 \large
 b * \lambda &amp;= \phi\end{split}\]</div>
-<p>This allows us to translate our geometric mean to an expression with one variable, <span class="math notranslate nohighlight">\(\color{#C90}{\phi}\)</span></p>
+<p>This allows us to translate our geometric mean to an expression with one
+variable, <span class="math notranslate nohighlight">\(\color{#C90}{\phi}\)</span></p>
 <div class="math notranslate nohighlight">
 \[\large
 \frac{1}{\color{#C90}{\phi}} = \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}}\]</div>
 <p>if we do a little algebraic manipulation, we see that our mean can be expressed as a quadratic expression.</p>
+<p>First, multiply each side by <span class="math notranslate nohighlight">\(\color{#C90}{\phi}\)</span></p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\color{#C90}{\phi} * \frac{1}{\color{#C90}{\phi}} &amp;= \color{#C90}{\phi} * \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}} \\
-1 &amp;=  \frac{\color{#C90}{\phi}^2}{1 + \color{#C90}{\phi}} \\
-( 1 + \color{#C90}{\phi} ) * 1 &amp;=  ( 1 + \color{#C90}{\phi} ) * \frac{\color{#C90}{\phi} ^ 2}{1 + \color{#C90}{\phi}} \\
-1 + \color{#C90}{\phi}  &amp;=   \color{#C90}{\phi} ^ 2 \\
-0 &amp;= \color{#C90}{\phi}^2 - \color{#C90}{\phi} - 1\end{split}\]</div>
-<p>—</p>
+\[\begin{split}\large
+{\color{#C90}{\phi}} * \frac{1}{\color{#C90}{\phi}} &amp;=
+\large
+{\color{#C90}{\phi}} * \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}} \\
+\\
+\large
+{\color{grey}{\cancel{\phi}}} * \frac{1}{\color{grey}{\cancel{\phi}}} &amp;=
+\large
+{\color{#C90}{\phi}} * \frac{\color{#C90}{\phi}}{1+\color{#C90}{\phi}} \\
+\\
+\large
+1 &amp;=
+\large
+\frac{{\color{#C90}{\phi}}^2}{1 + \color{#C90}{\phi}}\end{split}\]</div>
+<p>Then, multiply each side by <span class="math notranslate nohighlight">\((1 + {\color{#C90}{\phi}} )\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\large
+( 1 + {\color{#C90}{\phi}} ) * 1 &amp;=
+\large
+( 1 + {\color{#C90}{\phi}} ) * \frac{{\color{#C90}{\phi}} ^ 2}{1 + \color{#C90}{\phi}} \\
+\\
+\large
+( 1 + {\color{#C90}{\phi}} ) * 1 &amp;=
+\large
+{\color{grey}{\cancel{(1 + \phi )}}}
+ * \frac{{\color{#C90}{\phi}} ^ 2}{\color{grey}{\cancel{1 + \phi}}} \\
+\\
+\large
+1 + {\color{#C90}{\phi}}  &amp;=
+\large
+{\color{#C90}{\phi}} ^ 2 \\\end{split}\]</div>
+<p>Then flip the terms and subtract <span class="math notranslate nohighlight">\((1 + {\color{#C90}{\phi}} )\)</span> from both sides</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\large
+{\color{#C90}{\phi}} ^ 2
+&amp;=
+\large
+1 + {\color{#C90}{\phi}}  \\
+\\
+\large
+{\color{#C90}{\phi}} ^ 2 - {\color{#C90}{\phi}} - 1  &amp;=
+\large
+0\end{split}\]</div>
+<p>Now we have a quadratic expression in the form of:</p>
 <div class="math notranslate nohighlight">
 \[\large
 ax^2 + bx + c =  0\]</div>
+<p>And can use the quadratic formula to solve for <span class="math notranslate nohighlight">\(\color{#C90}{\phi}\)</span></p>
 <div class="math notranslate nohighlight">
 \[\large
 \frac{-b \pm \sqrt{b^2-4ac}}{2a}\]</div>
-<p>—</p>
-<div class="math notranslate nohighlight">
-\[\large
-a = 1, \, b = -1, \, c = -1\]</div>
+<p>Substitute the coefficients and plug into the formula:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}\large
-\mathbf{\Phi^2 \, - \, \Phi \, - \, 1= \, 0 }\\\end{split}\]</div>
+a = 1, \, b = -1, \, c = -1 \\
+\\
+\large
+\frac{-(-1) \pm \sqrt{(-1)^2-4(1)(-1)}}{2(1)} \\
+\\
+\large
+\frac{1 \pm \sqrt{5}}{2}\end{split}\]</div>
 <div class="math notranslate nohighlight">
 \[\large
 \mathbf{roots\; of\; \phi \, :=  \,  \left\{  \left(\frac{-\sqrt{5} + 1}{2}, 0 \right),  \left(\frac{\sqrt{5} + 1}{2}, 0 \right) \right\} }\]</div>
