@@ -3,7 +3,7 @@ Defining the Divine Proportion
 
 .. post::  23.012-101550
    :tags: divine
-   :category: DEF
+   :category: definition
 
 It is known by many names.
 
@@ -17,6 +17,10 @@ Many references will begin telling you it is a number equal to
 
 But this number is incomplete and meaningless.
 
+A proportion is a relationship between two values. Such as  1:2 or a:b or a/b
+
+a geometric me
+
 To understand the true meaning of the Divine Proportion, we first must
 understand the principle of a geometric mean. A geometric mean is a
 relationship of three values :math:`a, b, c` where
@@ -25,6 +29,13 @@ relationship of three values :math:`a, b, c` where
    \large
    \frac{a}{b} = \frac{b}{c}
 
+if can also be understood as 
+
+.. math::
+   \large
+   ac = b ^ 2
+
+
 so a simple example would be
 
 .. math::
@@ -32,7 +43,7 @@ so a simple example would be
    \frac{1}{2} = \frac{2}{4}
 
 But what if we were to define :math:`c = a + b` so our geometric mean is
-expressed with only two values
+expressed with only two values:
 
 .. math::
    \large
@@ -112,49 +123,64 @@ Now we have a quadratic expression in the form of:
 
 .. math::
    \large
-   ax^2 + bx + c =  0 
+   {\color{red}{a}}x^2 + {\color{green}{b}}x + {\color{blue}{c}} =  0 
 
 And can use the quadratic formula to solve for :math:`\color{#C90}{\phi}`
 
 .. math::
    \large
-   \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+   \frac{-{\color{green}{b}} \pm \sqrt{{\color{green}{b}}^2-4{\color{red}{a}}{\color{blue}{c}}}}{2{\color{red}{a}}}
 
 Substitute the coefficients and plug into the formula:
 
 .. math::
    \large
-   a = 1, \, b = -1, \, c = -1 \\
+   {\color{red}{a}} &= 1 \\
+   \large
+   {\color{green}{b}} &= -1 \\
+   \large
+   {\color{blue}{c}} &= -1 \\
    \\
    \large
-   \frac{-(-1) \pm \sqrt{(-1)^2-4(1)(-1)}}{2(1)} \\
+   {\color{#C90}{\phi}} &=
+   \large
+   \frac{-{\color{green}{(-1)}} 
+       \pm \sqrt{{\color{green}{(-1)}}^2 
+       - 4{\color{red}{(1)}}{\color{blue}{(-1)}}}}{2{\color{red}{(1)}}} \\
    \\
+   \large
+   {\color{#C90}{\phi}} &=
    \large
    \frac{1 \pm \sqrt{5}}{2}
 
 
+So, :math:`\color{gold}{\phi}` equates to two values:
 
 .. math::
    \large
-   \mathbf{roots\; of\; \phi \, :=  \,  \left\{  \left(\frac{-\sqrt{5} + 1}{2}, 0 \right),  \left(\frac{\sqrt{5} + 1}{2}, 0 \right) \right\} }
+   {\color{#C90}{\phi}} &=
+   \large
+   \frac{1 + \sqrt{5}}{2} \approx 1.618033989...\\
+   \\
+   \large
+   {\color{#C90}{\varphi}} &=
+   \large
+   \frac{1 - \sqrt{5}}{2} \approx -.618033989...\\
 
-.. math::
-   \large
-   \mathbf{\color{#C90}{\phi} \, =  \, \frac{\sqrt{5} + 1}{2}  } \approx 1.618033989\\
-   \large
-   \mathbf{\color{#C90}{\varphi} \, =  \, \frac{\sqrt{5} - 1}{2} } \approx .618033989\\
+The expression can also be rendered using just 5's
 
 .. math::
    \large
    .5 \times 5^.5 + .5
 
 
+**Two values are in The Divine Proportion when the ratio of the lesser value
+over the greater value is equal to the greater value over the sum of the lesser
+and greater value.**
 
-A proportion is a relationship between two values. Such as  1:2 or a:b or a/b
-
-**Two values are in The Divine Proportion when the ratio of the lesser value over the greater value is equal to the greater value over the sum of the lesser and greater value.**
-
-In other words, when a segment is sectioned into the Divine Proportion, the parts are in a harmonic relationship to the whole.
-Setting up a Harmonic Rhythm.
+In other words, when a segment is sectioned into the Divine Proportion, the
+parts are in a harmonic relationship to the whole.  Setting up a Harmonic
+Rhythm.
 
 The very nature of the Golden Ratio is harmonic resonance
+
