@@ -3,7 +3,7 @@ Defining the Divine Proportion
 
 .. post::  23.012-101550
    :tags: divine
-   :category: DEF
+   :category: definition
 
 It is known by many names.
 
@@ -13,18 +13,13 @@ It is known by many names.
 
 Many references will begin telling you it is a number equal to 
 
-A proportion is a relationship between two values. Such as  1:2 or a:b or a/b
-
-**Two values are in The Divine Proportion when the ratio of the lesser value over the greater value is equal to the greater value over the sum of the lesser and greater value.**
-
-In other words, when a segment is sectioned into the Divine Proportion, the parts are in a harmonic relationship to the whole.
-Setting up a Harmonic Rhythm.
-
-The very nature of the Golden Ratio is harmonic resonance
-
 .. math:: 1.618...
 
 But this number is incomplete and meaningless.
+
+A proportion is a relationship between two values. Such as  1:2 or a:b or a/b
+
+a geometric me
 
 To understand the true meaning of the Divine Proportion, we first must
 understand the principle of a geometric mean. A geometric mean is a
@@ -34,6 +29,13 @@ relationship of three values :math:`a, b, c` where
    \large
    \frac{a}{b} = \frac{b}{c}
 
+if can also be understood as 
+
+.. math::
+   \large
+   ac = b ^ 2
+
+
 so a simple example would be
 
 .. math::
@@ -41,7 +43,7 @@ so a simple example would be
    \frac{1}{2} = \frac{2}{4}
 
 But what if we were to define :math:`c = a + b` so our geometric mean is
-expressed with only two values
+expressed with only two values:
 
 .. math::
    \large
@@ -172,4 +174,13 @@ The expression can also be rendered using just 5's
    .5 \times 5^.5 + .5
 
 
+**Two values are in The Divine Proportion when the ratio of the lesser value
+over the greater value is equal to the greater value over the sum of the lesser
+and greater value.**
+
+In other words, when a segment is sectioned into the Divine Proportion, the
+parts are in a harmonic relationship to the whole.  Setting up a Harmonic
+Rhythm.
+
+The very nature of the Golden Ratio is harmonic resonance
 
